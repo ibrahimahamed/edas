@@ -62,9 +62,10 @@ header img{
     padding: 6px 20px;
     background: #000;
     border: 1px solid transparent;
-    text-transform: capitalize;
+    text-transform: uppercase;
     border-radius: 0px;
     transition: .5s ease-in-out;
+    border-radius: 4px;
 }
 .btn-info:focus, .btn-info:hover{
     background: transparent;
@@ -73,9 +74,6 @@ header img{
     box-shadow: none;
 }
 /* ==========text section css========== */
-.text-section{
-    /* padding: 50px 281px; */
-}
 .text-section p{
     font-size: 16px;
     line-height: 1.6;
@@ -100,6 +98,7 @@ header img{
 /* ==========portfolio section css========== */
 .portfolio-section{
     padding: 50px 0px;
+    overflow: hidden;
 }
 .portfolio-inner img {
     width: 90%;
@@ -126,27 +125,22 @@ header img{
 }
 /* ==========feature section css========== */
 .feature-section{
-    background: url("../img/f-bg.png") top left no-repeat;
-    background-size: contain !important;
     padding: 10px 0px;
-}
-.justify-content-end {
-    justify-content: flex-end !important;
 }
 .feature-inner ul{
     padding-left: 0px;
 }
 .feature-inner ul h1{
-    color: #000 !important;
-    font-size: 50px !important;
-    font-weight: 600 !important;
+    color: #000;
+    font-size: 50px;
+    font-weight: 600;
 }
 .feature-inner ul li{
-    color: #000 !important;
-    font-size: 20px !important;
-    font-weight: 500 !important;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
     line-height: 1.6;
-    /* margin-top: 5px; */
+    margin-top: 19px;
 }
 .feature-inner ul li i{
     margin-right: 7px;
