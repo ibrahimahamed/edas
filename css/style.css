@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+/* ==========header section css========== */
+header{
+    width: 100%;
+    background: #fff;
+    padding: 20px 0px;
+}
+header img{
+    width: 200px;
+    
+}
+/* ==========banner section css========== */
+.banner-section{
+    background: url("../img/bn.png") top center no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.banner-inner{
+    background: rgba(255, 255, 255, 0.55);
+    padding: 50px 10px;
+}
+.banner-inner h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+.banner-inner p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.banner-inner h4{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.btn-info {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 6px 20px;
+    background: #000;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    border-radius: 0px;
+    transition: .5s ease-in-out;
+}
+.btn-info:focus, .btn-info:hover{
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+    box-shadow: none;
+}
+/* ==========text section css========== */
+.text-section{
+    /* padding: 50px 281px; */
+}
+.text-section p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+.text-section span {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #000;
+    margin: 20px 0px;
+}
+.text-section img{
+    margin-bottom: 10px;
+}
+.text-section h2 {
+    font-size: 32px;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+/* ==========portfolio section css========== */
+.portfolio-section{
+    padding: 50px 0px;
+}
+.portfolio-inner img {
+    width: 90%;
+}
+.portfolio-inner p{
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+.portfolio-inner span{
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #000;
+    margin: 20px 0px;
+}
+.portfolio-inner h4{
+    font-size: 20px;
+    line-height: 1.5;
+    opacity: .9;
+    font-weight: 500;
+    margin-top: 20px;
+}
+/* ==========feature section css========== */
+.feature-section{
+    background: url("../img/f-bg.png") top left no-repeat;
+    background-size: contain !important;
+    padding: 10px 0px;
+}
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+.feature-inner ul{
+    padding-left: 0px;
+}
+.feature-inner ul h1{
+    color: #000 !important;
+    font-size: 50px !important;
+    font-weight: 600 !important;
+}
+.feature-inner ul li{
+    color: #000 !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    line-height: 1.6;
+    /* margin-top: 5px; */
+}
+.feature-inner ul li i{
+    margin-right: 7px;
+}
+/* ==========footer section css========== */
+footer{
+    padding: 20px 0px 0px;
+}
+footer p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-transform: capitalize;
+}
